@@ -5,6 +5,10 @@
 
 ## Descrição:
 
+Em Java, tipos primitivos, como int, double e boolean, são tipos de dados primitivos, pré-definidos pela linguagem, cada um utiliza um espaço específico na memória, têm valores padrão (como 0 ou false), e são mais eficientes em termos de performance.
+
+Em contraste, existem também os tipos não primitivos. Os tipos não primitivos, também conhecidos como tipos de referência, são utilizados para representar objetos, arrays e até mesmo outras classes! Eles não são apenas contêineres simples de valores; eles são entidades complexas com seus próprios métodos e propriedades. Com os tipos não primitivos, você pode criar objetos complexos, estruturar seus dados de maneira eficiente e até mesmo modelar o mundo real em seus programas.
+
 ### Tipos Primitivos:
 
 - **boolean**: Representa valores verdadeiro ou falso (true ou false).
@@ -24,5 +28,3 @@
 - **Interfaces**: Contratos que podem ser implementados por classes e interfaces.
 - **Enums**: Tipo especial de classe que define um conjunto de constantes.
   
-Os tipos primitivos têm sempre um valor, enquanto os não primitivos podem ser null. Os tipos não primitivos também podem ser usados para invocar métodos para realizar operações, 
-enquanto os tipos primitivos não podem.
