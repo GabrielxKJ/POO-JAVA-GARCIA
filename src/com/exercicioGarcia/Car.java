@@ -1,3 +1,5 @@
+package com.exercicioGarcia;
+
 public class Car {
     int velocidadeAtual = 0;
 

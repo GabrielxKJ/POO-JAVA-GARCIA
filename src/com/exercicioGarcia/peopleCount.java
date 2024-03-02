@@ -1,3 +1,5 @@
+package com.exercicioGarcia;
+
 import java.util.Scanner;
 
 public class peopleCount {
