@@ -1,21 +1,34 @@
 package com.exercicioGarcia;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import com.exercicioGarcia.paraCasa.exercicio1.Pessoa;
+import com.exercicioGarcia.paraCasa.exercicio1.Churrasco;
+import com.exercicioGarcia.paraCasa.exercicio2.Lampada;
+
+
 public class Main {
     public static void main(String[] args) {
 
-//        Car carro = new Car();
+//        Pessoa joao = new Pessoa("Joao", "Masculino", 12, false);
+//        Pessoa gabriel = new Pessoa("Gabriel","Masculino", 22,false );
+//        Pessoa Cabral = new Pessoa("Cabral", "Masculino", 1, false);
+//        Pessoa pirigaita = new Pessoa("Pirigaita", "Feminino", 22, true);
 //
-//        carro.aceleraAe();
-//        carro.aceleraAe();
-//        carro.aceleraAe();
-//        carro.aceleraAe();
-//        carro.mostraAvelocidadeAe();
-//        carro.freiaAe();
+//        Churrasco churras = new Churrasco();
+//
+//        churras.verificarConsumo(gabriel);
+//        churras.verificarConsumo(Cabral);
+//        churras.verificarConsumo(joao);
+//        churras.verificarConsumo(pirigaita);
 
-        MassaCorporal eu = new MassaCorporal();
-        eu.calculo(53, 1.70);
-        eu.aboveBelowOrMiddle();
+//        Lampada lampada = new Lampada();
+//
+//        lampada.click();
+//        lampada.click();
+//        lampada.click();
+//        lampada.click();
+//
+//        lampada.checaEstado();
+//
+//        lampada.qtdAcendimentos();
     }
 }
