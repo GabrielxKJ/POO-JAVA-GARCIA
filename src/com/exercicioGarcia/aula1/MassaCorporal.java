@@ -1,4 +1,4 @@
-package com.exercicioGarcia;
+package com.exercicioGarcia.aula1;
 public class MassaCorporal {
 
     double imc = 0;
