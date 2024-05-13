@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <link th:href="@{style/style.css}"><link/>
+    <script th:src="@{js/index.js}"></script>
+</head>
+<body>
+    <h1>OLA SPRING</h1>
+    <nav>
+        <ul>
+            <li><a th:href="@{/p1}">PAGINA 1</a></li>
+            <li><a th:href="@{/p2}">PAGINA 2</a></li>
+            <li><a th:href="@{/calc}">CALCULAR</a></li>
+        </ul>
+    </nav>
+    <a th:href="@{/}">voltar</a>
+    <br>
+    <button th:onclick="ola()">ola</button>
+</body>
+</html>
